@@ -1,0 +1,49 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MapView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {doc = MyDocument; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            ACTIONS = {
+                changeUnitIm = id; 
+                increaseBrush = id; 
+                startPlaceUnit = id; 
+                triggerImEx = id; 
+                updateMap = id; 
+                updateUnit = id; 
+            }; 
+            CLASS = MyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                UIControl = NSUserDefaultsController; 
+                brushSize = id; 
+                grpImage = id; 
+                heightBox = id; 
+                imagething = id; 
+                mapView = id; 
+                myOutlet = id; 
+                namBox = id; 
+                palletView = id; 
+                pptWindow = id; 
+                tileBox = id; 
+                tilesetBox = id; 
+                trigWin = id; 
+                unitIdBox = id; 
+                unitPallet = id; 
+                widthBox = id; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {
+            CLASS = PalletView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {document = id; tileBox = id; }; 
+            SUPERCLASS = NSView; 
+        }
+    ); 
+    IBVersion = 1; 
+}
